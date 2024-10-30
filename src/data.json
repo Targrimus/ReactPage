@@ -1,0 +1,91 @@
+{
+    "data" :[
+        {
+            "id": 1,
+            "ekipmanTipi": "ISTASYON",
+            "ekipmanTanimi": "BR007",
+            "konumBilgisi":{
+                "il": "CANAKKALE",
+                "ilce": "MERKEZ",
+                "konum": {"lat": 0, "lng": 0},
+                "adres": "MECİDİYE CAMİ AVLUSU"
+            },
+            "teknikBilgiler":{
+                "imalatTarihi": "2008-08-19",
+                "devreyeAlmaTarihi": "19.08.2008",
+                "kapasite": 5000,
+                "uretici": "FİOGAZ",
+                "seriNo": "2006NB0361",
+                "girisCap" : 4,
+                "cikisCap": 6,
+                "girisBasinci": "12-19",
+                "cikisBasinci": "4",
+                "ANSI": 150,
+                "regulatorler":[
+                    {
+                        "marka": "P.FİORENTİNİ",
+                        "model": "APERVAL",
+                        "cap": "DN65",
+                        "slamShut": "VB/33",
+                        "pilotTipi": "302/A",
+                        "OnFiltreTipi": "AR100",
+                        "seriNo": "2006/01170"                       
+                    },
+                    {
+                        "marka": "P.FİORENTİNİ",
+                        "model": "APERVAL",
+                        "cap": "DN65",
+                        "slamShut": "VB/33",
+                        "pilotTipi": "302/A",
+                        "OnFiltreTipi": "AR100",
+                        "seriNo": "2006/01171"                       
+                    }
+                ],
+                "filtreler":[
+                {
+                    "marka": "P.FİORENTİNİ",
+                    "tip": "HFA/2",
+                    "cap": "DN100",
+                    "seriNo": "2006/MA0124",
+                    "kartusTipi": "G-2",
+                    "kartusSayisi": 1
+                },
+                {
+                    "marka": "P.FİORENTİNİ",
+                    "tip": "HFA/2",
+                    "cap": "DN100",
+                    "seriNo": "2006/MA0117",
+                    "kartusTipi": "G-2",
+                    "kartusSayisi": 1
+                }
+                ],
+                "uzakOkuma":[
+                    {
+                        "marka": "ELGAS",
+                        "model": "MAXI ELCOR",
+                        "seriNo": "1408001030",
+                        "calismaBasinci": "0.8-10 BAR",
+                        "ipAdresi": "192.168.131.133",
+                        "webKullaci": "CANAKKALE",
+                        "webSifre": "BR007",
+                        "enerjiTuru": "ELETRİK"
+                    }
+                ],
+                "sayacBilgileri":[
+                    {
+                        "marka": "ELSTER",
+                        "tipi": "QUANTOMETRE",
+                        "model": "Q1000",
+                        "seriNo": "73525068",
+                        "qmin": 80,
+                        "qmax": 1600,
+                        "üretimTarihi": "2018-01-01",
+                        "damgaYili": ["2018-01-01"]
+
+                    }
+                ]
+            }
+            
+        }
+    ]
+}
